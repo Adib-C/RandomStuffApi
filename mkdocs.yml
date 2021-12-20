@@ -1,0 +1,35 @@
+site_name: RSA Documentation
+theme:
+  palette: 
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+        
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - announce.dismiss
+  hide:
+    - navigation
+markdown_extensions:
+   - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg  
+   - markdown.extensions.admonition
+   - admonition
+   - pymdownx.details
+   - pymdownx.superfences
+   - attr_list
+   - tables
+plugins: 
+   - search
+repo_url: https://github.com/pgamerx/random-stuff-api
+
+
+
